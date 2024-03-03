@@ -52,7 +52,7 @@ jobs:
           
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: ${{ inputs.version == 'latest' && 'cmake_windows' || format('cmake_windows_{0}', inputs.version) }}
         
       - uses: actions/setup-python@v4
@@ -138,7 +138,7 @@ jobs:
           
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: ${{ inputs.version == 'latest' && 'cmake_windows' || format('cmake_windows_{0}', inputs.version) }}
         
       - uses: actions/setup-python@v4
@@ -223,7 +223,7 @@ jobs:
           
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: ${{ inputs.version == 'latest' && 'cmake_windows' || format('cmake_windows_{0}', inputs.version) }}
         
       - uses: actions/setup-python@v4
@@ -276,7 +276,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: ${{ inputs.version == 'latest' && 'cmake_windows' || format('cmake_windows_{0}', inputs.version) }}
         
       - uses: actions/setup-python@v4

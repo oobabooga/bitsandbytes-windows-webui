@@ -38,7 +38,7 @@ jobs:
           
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: 'cmake_windows_0.37.2'
         
       - uses: actions/setup-python@v4
@@ -124,7 +124,7 @@ jobs:
           
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: 'cmake_windows_0.37.2'
         
       - uses: actions/setup-python@v4
@@ -209,7 +209,7 @@ jobs:
           
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: 'cmake_windows_0.37.2'
         
       - uses: actions/setup-python@v4
@@ -262,7 +262,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: 'jllllll/bitsandbytes'
+          repository: 'oobabooga/bitsandbytes'
           ref: 'cmake_windows_0.37.2'
         
       - uses: actions/setup-python@v4
